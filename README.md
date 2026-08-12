@@ -133,11 +133,7 @@ python -m unittest
 
 ## Roadmap
 
-- Add preview mode
-- Add column type hints
-- Add date and number normalization
-- Add optional web UI
-- Add batch processing for multiple CSV files
+- [Roadmap](docs/roadmap.md)
 
 ## Contributing
 
