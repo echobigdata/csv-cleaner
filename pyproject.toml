@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "csv-cleaner"
+version = "0.1.0"
+description = "A lightweight CSV cleaning CLI for everyday data cleanup"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [{ name = "guchen" }]
+
+[project.scripts]
+csv-cleaner = "csv_cleaner.cli:main"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
