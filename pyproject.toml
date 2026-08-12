@@ -10,6 +10,16 @@ readme = "README.md"
 requires-python = ">=3.10"
 license = { text = "MIT" }
 authors = [{ name = "guchen" }]
+keywords = [
+    "csv",
+    "csv-cleaner",
+    "csv-cleaning",
+    "data-cleaning",
+    "data-preprocessing",
+    "table-cleanup",
+    "python-cli",
+    "csv-processing",
+]
 
 [project.scripts]
 csv-cleaner = "csv_cleaner.cli:main"
