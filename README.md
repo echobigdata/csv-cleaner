@@ -1,5 +1,9 @@
 # CSV Cleaner
 
+[![Stars](https://img.shields.io/github/stars/echobigdata/csv-cleaner?style=social)](https://github.com/echobigdata/csv-cleaner/stargazers)
+[![Issues](https://img.shields.io/github/issues/echobigdata/csv-cleaner)](https://github.com/echobigdata/csv-cleaner/issues)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+
 轻量实用的 Python CSV 数据清洗工具，适合日常表格整理、数据预处理、运营报表清洗和数据分析前的数据准备工作。
 
 CSV Cleaner is a lightweight Python CLI for everyday CSV cleanup. It helps you trim cells, remove empty rows or columns, rename headers, keep selected columns, filter rows, and export a clean CSV file.
@@ -134,6 +138,16 @@ python -m unittest
 - Add date and number normalization
 - Add optional web UI
 - Add batch processing for multiple CSV files
+
+## Contributing
+
+Issues and pull requests are welcome. If you want to help, good first issues include:
+
+- Add more CSV cleaning examples
+- Add batch processing for folders
+- Add preview mode before export
+- Improve Chinese and English documentation
+- Add tests for edge cases
 
 ## Keywords
 
